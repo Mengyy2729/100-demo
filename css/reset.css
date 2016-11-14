@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, 
+address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, 
+tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup, menu, nav, 
+output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size: 12px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after,
+.clearfloat:before{
+	display: block;
+	content: "";
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+.common{
+	border: 1px solid #DBDBDB;
+	border-radius: 5px;
+}
+.common_title{
+	border: none;
+}
+.common_title ul li{
+	float: left;
+	width: 170px;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #DBDBDB;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background: #F9F9F9;
+}
+.common_title ul li a{
+	color: #000;
+	font-weight: 600;
+	font-size: 14px;
+	position: relative;
+}
+.common_title ul li a strong{
+	color: #CC0D13;
+	margin-right: 5px;
+}
+.common_title ul li a i{
+	display: inline-block;
+	transform: rotate(45deg);
+	border-top: 4px solid #fff;
+	border-left: 4px solid #fff;
+	border-right: 4px solid gray;
+	border-bottom: 4px solid gray;
+	position: absolute;
+	top: 0px;
+	right: -20px;
+}
+.common_title ul li.active{
+	border-bottom-color: #fff;
+	background: #fff;
+}
+.common_title ul li.active i{
+	border-top: 4px solid #fff;
+	border-left: 4px solid #fff;
+	border-right: 4px solid #CA0309;
+	border-bottom: 4px solid #CA0309;
+}
+.commonHead{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.commonHead h2{
+	padding: 0 15px;
+	font-family: "微软雅黑";
+}
+.commonHead h2 strong{
+	font-weight: bold;
+	color: #CC0D13;
+	float: left;
+}
+.commonHead h2 span{
+	font-weight: bold;
+	color: #000;
+	margin-left: 5px;
+	float: left;
+}
+.commonHead h2 a{
+	display: block;
+	float: right;
+	width: 37px;
+	height: 13px;
+	background: url(../img/more.gif) no-repeat;
+	/*vertical-align: middle;*/
+	margin-top: 13px;
+}
